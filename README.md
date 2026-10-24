@@ -452,6 +452,10 @@ The student remained responsible for reviewing the code, executing experiments, 
 
 The written MMA3001 project report contains a more detailed **AI Use and Critical Reflection** section, including examples of suggestions that required correction.
 
+For a detailed disclosure of AI assistance, verification
+procedures and critical reflection, see
+[AI Usage and Critical Reflection](docs/AI_USAGE.md).
+
 ## 15. References and Acknowledgements
 
 - [Ultralytics YOLO11](https://docs.ultralytics.com/models/yolo11/)
