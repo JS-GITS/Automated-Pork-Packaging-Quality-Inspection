@@ -1,0 +1,20 @@
+Command: D:\Documents\MMA3001 - Numerical methods and machine learning\MMA3001_Project\.venv\Scripts\python.exe -m pytest tests -v --junitxml=D:\Documents\MMA3001 - Numerical methods and machine learning\MMA3001_Project\docs\test_report.xml
+Exit code: 0
+
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.7.0 -- D:\Documents\MMA3001 - Numerical methods and machine learning\MMA3001_Project\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Documents\MMA3001 - Numerical methods and machine learning\MMA3001_Project
+plugins: anyio-4.15.1
+collecting ... collected 7 items
+
+tests/test_architecture_experiments.py::test_experiment_configurations_are_complete PASSED [ 14%]
+tests/test_architecture_experiments.py::test_controlled_experiment_design PASSED [ 28%]
+tests/test_architecture_experiments.py::test_dataset_class_count_reads_yaml PASSED [ 42%]
+tests/test_architecture_experiments.py::test_dataset_class_count_rejects_missing_file PASSED [ 57%]
+tests/test_architecture_experiments.py::test_dataset_class_count_rejects_invalid_classes PASSED [ 71%]
+tests/test_architecture_experiments.py::test_generated_model_yaml_scales_width_and_depth PASSED [ 85%]
+tests/test_architecture_experiments.py::test_summary_saves_peak_and_last_epoch_separately PASSED [100%]
+
+- generated xml file: D:\Documents\MMA3001 - Numerical methods and machine learning\MMA3001_Project\docs\test_report.xml -
+============================== 7 passed in 2.67s ==============================
