@@ -1,5 +1,12 @@
 """
-Train the baseline YOLO11n model for pork-packaging defect detection.
+Initial YOLO11n training smoke test for pork-packaging defect detection.
+
+Trains a COCO-pretrained YOLO11n model for 10 epochs to verify
+the dataset and training workflow.
+
+This is NOT the final selected model. The seven controlled
+architecture experiments are implemented in
+run_architecture_experiments.py.
 
 MMA3001 Project
 """
