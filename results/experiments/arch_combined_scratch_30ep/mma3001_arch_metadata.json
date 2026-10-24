@@ -1,0 +1,26 @@
+{
+  "experiment": "combined",
+  "depth": 1.0,
+  "width": 0.375,
+  "lr0": 0.0003,
+  "initialization": "scratch",
+  "initialization_source": "random (scratch)",
+  "epochs_requested": 30,
+  "training": {
+    "epochs": 30,
+    "imgsz": 640,
+    "batch": 2,
+    "workers": 2,
+    "seed": 42,
+    "deterministic": true,
+    "optimizer": "AdamW",
+    "plots": true,
+    "verbose": true,
+    "patience": 30
+  },
+  "device": 0,
+  "architecture_yaml": "configs\\generated\\yolo11n_mma3001_combined.yaml",
+  "dataset_yaml": "data\\raw\\dataset_v1\\data.yaml",
+  "parameters": 7074532,
+  "train_seconds": 2985.6813182999977
+}

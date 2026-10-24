@@ -1,0 +1,8 @@
+run,last_epoch,precision,recall,mAP50,mAP50_95,peak_mAP50_95,depth,width,lr0,epochs_requested,initialization,parameters,train_seconds
+arch_baseline_scratch_30ep,30,0.48725,0.3624,0.29758,0.15271,0.18082,0.5,0.25,0.001,30,scratch,2590620,2286.1
+arch_combined_scratch_30ep,30,0.60195,0.33721,0.31294,0.14974,0.16004,1.0,0.375,0.0003,30,scratch,7074532,2985.7
+arch_deeper_scratch_30ep,30,0.59148,0.32697,0.28592,0.14695,0.1603,1.0,0.25,0.001,30,scratch,3308684,2824.8
+arch_lr_high_scratch_30ep,30,0.53294,0.20637,0.25337,0.13737,0.1387,0.5,0.25,0.003,30,scratch,2590620,2246.9
+arch_lr_low_scratch_30ep,30,0.52316,0.23834,0.2603,0.13679,0.1394,0.5,0.25,0.0003,30,scratch,2590620,2230.1
+arch_narrower_scratch_30ep,30,0.76357,0.22129,0.28367,0.14874,0.15041,0.5,0.1875,0.001,30,scratch,1565040,2151.2
+arch_wider_scratch_30ep,30,0.64205,0.38745,0.35035,0.16281,0.16746,0.5,0.375,0.001,30,scratch,5463484,2199.0

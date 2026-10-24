@@ -1,0 +1,26 @@
+{
+  "experiment": "lr_high",
+  "depth": 0.5,
+  "width": 0.25,
+  "lr0": 0.003,
+  "initialization": "scratch",
+  "initialization_source": "random (scratch)",
+  "epochs_requested": 30,
+  "training": {
+    "epochs": 30,
+    "imgsz": 640,
+    "batch": 2,
+    "workers": 2,
+    "seed": 42,
+    "deterministic": true,
+    "optimizer": "AdamW",
+    "plots": true,
+    "verbose": true,
+    "patience": 30
+  },
+  "device": 0,
+  "architecture_yaml": "configs\\generated\\yolo11n_mma3001_lr_high.yaml",
+  "dataset_yaml": "data\\raw\\dataset_v1\\data.yaml",
+  "parameters": 2590620,
+  "train_seconds": 2246.8637562000004
+}

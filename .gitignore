@@ -238,3 +238,7 @@ runs/
 Thumbs.db
 .vscode/
 .idea/
+
+# Additional files
+docs/tree.txt
+docs/MMA3001_Project.zip
