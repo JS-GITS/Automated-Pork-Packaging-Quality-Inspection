@@ -150,8 +150,8 @@ MMA3001_Project/
 ├── src/
 │   ├── train.py
 │   ├── run_architecture_experiments.py
-│   ├── plot_report_figures.py
-│   └── view_results.py
+│   └── plot_report_figures.py
+│   
 │
 ├── tests/
 │   └── test_architecture_experiments.py
@@ -176,7 +176,6 @@ MMA3001_Project/
 | `src/train.py` | Preliminary 10-epoch smoke test using COCO-pretrained YOLO11n weights |
 | `src/run_architecture_experiments.py` | Creates custom network configurations, trains experiments and summarises results |
 | `src/plot_report_figures.py` | Generates comparison figures from saved experiment histories |
-| `src/view_results.py` | Utility for viewing project results |
 | `tests/test_architecture_experiments.py` | Automated checks of experiment configuration and result-processing behaviour |
 
 The preliminary pretrained smoke test is separate from the seven final controlled experiments, which were **trained from scratch**.

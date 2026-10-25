@@ -204,7 +204,7 @@ def main() -> int:
     sub.add_parser("summary", help="Display saved seven-model validation comparison")
     predict_parser = sub.add_parser("demo", help="Run inference with the trained baseline checkpoint")
     predict_parser.add_argument("--image", type=Path, help="Image to inspect (default: first validation image)")
-    predict_parser.add_argument("--conf", type=float, default=0.10, help="Detection confidence threshold (default: 0.25)")
+    predict_parser.add_argument("--conf", type=float, default=0.10, help="Detection confidence threshold (default: 0.10)")
     predict_parser.add_argument("--show", action="store_true", help="Open annotated output image after saving it")
     sub.add_parser("tests", help="Run pytest and generate docs/test_report.txt and .xml")
     args = parser.parse_args()
